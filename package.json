@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install && npm install --include=dev --prefix frontend && npm run build --prefix frontend",
-    "watch": "nodemon backend/server.js"
+    "watch": "nodemon backend/server.js",
+    "start": "NODE_ENV=production node backend/server.js"
   },
   "keywords": [],
   "author": "",
